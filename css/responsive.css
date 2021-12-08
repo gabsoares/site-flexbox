@@ -1,0 +1,164 @@
+@media screen and (max-width: 1300px) {
+  .products {
+    height: 265px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .logo {
+    font-size: 1.4em;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-us {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .products-image {
+    width: 100%;
+  }
+  .products {
+    width: 40%;
+    height: 310px;
+  }
+  .about-title {
+    font-size: 2.3em;
+    text-align: center;
+    margin-top: 35vh;
+    margin-bottom: 4vh;
+  }
+  .contact-container {
+    position: relative;
+    right: 35px;
+  }
+  .btn-submit {
+    position: relative;
+    left: 38px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .products-title {
+    font-size: 1.8em;
+  }
+  .products-container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    justify-content: space-around;
+    margin-bottom: 300px;
+  }
+  .products {
+    width: 40%;
+    margin-top: 10vh;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+  }
+  .products-image {
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    right: 68px;
+  }
+  .contact {
+    margin: 100px 0 0 150px;
+    width: 80%;
+    display: flex;
+  }
+  .btn-submit {
+    position: relative;
+    left: 74px;
+  }
+  .products {
+    height: 300px;
+  }
+  .products-container {
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .products-container {
+    height: 750px;
+  }
+  .products {
+    height: 260px;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    right: 80px;
+  }
+  .contact {
+    margin: 100px 0 0 150px;
+    width: 80%;
+    display: flex;
+  }
+  .btn-submit {
+    position: relative;
+    left: 98px;
+  }
+  .about-title {
+    margin-bottom: 1vh;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .navbar-items:hover {
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: darkblue;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    font-size: 1.1em;
+  }
+  .navbar-items:hover {
+    text-decoration: underline;
+    font-size: 1.1em;
+    color: darkblue;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    right: 115px;
+  }
+  .contact {
+    margin: 100px 0 0 150px;
+    width: 80%;
+    display: flex;
+  }
+  .btn-submit {
+    position: relative;
+    left: 120px;
+  }
+  .products-container {
+    height: 700px;
+  }
+  .products {
+    height: 230px;
+    width: 45%;
+  }
+}
