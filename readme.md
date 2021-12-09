@@ -7,7 +7,7 @@ O projeto **"Site Flexbox - Gabriel"** foi feito para aplicar os meus estudos em
 
 ![demonstracao.gif](./demonstracao.gif)
 
-<h1><a a href="https://sitegabrielflexbox.000webhostapp.com/index.html" target="_blank">Acesse o site aqui</a></h1>
+<h1><a a href="https://gabrielflexbox.netlify.app/" target="_blank">Acesse o site aqui</a></h1>
 
 ## ⚙️Ferramentas Utilizadas no projeto
 
