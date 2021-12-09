@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-
+/* Configurações gerais da Página */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #eaeaea;
   max-width: 100%;
 }
 
@@ -17,38 +16,44 @@ a {
   color: inherit;
 }
 
+/* Classe atribuída a mais de um elemento */
 .center {
   text-align: center;
+}
+
+/* Estilos da Navbar */
+.navbar-container {
+  display: flex;
+  height: 80px;
+  background: linear-gradient(to bottom, #005168, #017fc0);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
   font-size: 1.8em;
   margin: 20px;
   font-weight: bold;
-}
-
-.navbar-container {
-  display: flex;
-  height: 80px;
-  background: #fff;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  color: #b3d7d8;
 }
 
 .navbar-items {
   margin: 10px;
+  color: #b3d7d8;
+  transition: background 500ms ease;
 }
 
 .navbar-items:hover {
   text-decoration: underline;
-  font-size: 1.3em;
-  color: darkblue;
+  color: #c4ede9;
 }
 
+/* Estilos da parte de produtos */
 .products-title {
   font-size: 2.2em;
   margin-top: 5vh;
+  color: #0274a0;
 }
 
 .products-container {
@@ -73,7 +78,7 @@ a {
 }
 
 .products-name {
-  color: #000;
+  color: #0274a0;
   margin-bottom: 10px;
 }
 
@@ -83,8 +88,8 @@ a {
 }
 
 .btn-buy {
-  background: darkblue;
-  color: #eee21f;
+  background: #007f8a;
+  color: #f8d492;
   padding: 10px 20px;
   border-radius: 8px;
   display: inline-block;
@@ -94,9 +99,10 @@ a {
 }
 
 .btn-buy:hover {
-  background: cornflowerblue;
+  background: #25bdcf;
 }
 
+/* Estilos do "Sobre Nós" */
 .about-container {
   display: flex;
   align-items: center;
@@ -105,10 +111,10 @@ a {
 
 .about-title {
   font-size: 2.3em;
-  color: #333;
   text-align: center;
   margin-top: 3vh;
   margin-bottom: 8vh;
+  color: #0f2850;
 }
 
 .about-image {
@@ -120,17 +126,10 @@ a {
   width: 80%;
   margin-left: 20px;
   font-size: 1.3em;
+  color: #0f2850;
 }
 
-.footer-container {
-  margin-top: 20vh;
-  height: 80px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+/* Estilos do formulário de contato */
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -144,29 +143,33 @@ a {
 
 .form-title {
   text-align: center;
-  background: darkred;
-  border-top: 4px solid tomato;
+  background: #0b4b42;
+  border-top: 4px solid #04163a;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  color: #eee;
+  color: #c4ede9;
 }
 
 .name,
 .last-name {
   font-size: 1.2em;
   padding: 20px 0 10px 45px;
+  color: #0f2850;
 }
 
 #user-name,
 #last-name {
   font-size: 0.9em;
-  border: 2px solid tomato;
+  border: 2px solid #192065;
   width: 80%;
   margin-left: 50px;
   padding: 10px;
+  color: #0d1a87;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .message {
@@ -174,24 +177,36 @@ a {
   width: 80%;
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
-  border: 1px solid tomato;
-  color: tomato;
+  border: 1px solid #192065;
+  color: #0d1a87;
+  font-weight: bold;
   padding: 10px 0 0 20px;
+  border-radius: 5px;
 }
 
 .btn-submit {
   margin: 30px auto;
-  background: tomato;
-  border: 2px solid #3f0000;
+  background: #007f8a;
+  border: #25bdcf;
   border-radius: 8px;
   padding: 15px 60px;
-  color: #eee;
+  color: #f8d492;
   font-size: 1.2em;
   transition: background 500ms ease;
 }
 
 .btn-submit:hover {
-  background: #3f0000;
-  border: 2px solid tomato;
+  background: #25bdcf;
+  border: 2px solid #007f8a;
   cursor: pointer;
+}
+
+.footer-container {
+  margin-top: 20vh;
+  height: 80px;
+  background: linear-gradient(to bottom, #005168, #017fc0);
+  color: #b3d7d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

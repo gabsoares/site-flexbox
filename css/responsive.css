@@ -124,8 +124,7 @@
 @media screen and (max-width: 543px) {
   .navbar-items:hover {
     text-decoration: underline;
-    font-size: 1.2em;
-    color: darkblue;
+    color: #c4ede9;
   }
 }
 
@@ -135,8 +134,7 @@
   }
   .navbar-items:hover {
     text-decoration: underline;
-    font-size: 1.1em;
-    color: darkblue;
+    color: #c4ede9;
   }
   .contact-container {
     display: flex;
