@@ -160,3 +160,31 @@
     width: 45%;
   }
 }
+
+@media screen and (max-width: 440px) {
+  .navbar-items {
+    margin: 2px;
+    color: #b3d7d8;
+    transition: background 500ms ease;
+  }
+  .logo {
+    font-size: 1.1em;
+    margin-left: 7px;
+    font-weight: bold;
+    color: #b3d7d8;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    right: 132px;
+  }
+  .btn-submit {
+    position: relative;
+    left: 133px;
+  }
+}
